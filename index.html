@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sus</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+            text-align: center;
+            font-size: 35pt;
+            color: red;
+        }
+
+        #div {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>DONT CLICK ON THIS: <div id="div" onclick="clicar()">"OOHHMAGAAWD"</div></h1>
+
+    <script defer>
+        function clicar() {
+
+            const url = 'https://www.youtube.com/watch?v=GBIIQ0kP15E'
+
+            const win = open(url, '_blank')
+
+            win.focus()
+        }
+    </script>
+</body>
+</html>
